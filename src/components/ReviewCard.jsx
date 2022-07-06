@@ -14,7 +14,7 @@ const ReviewCard = ({data}) => {
             <h3 className="pt-4">{name.split(" ").map((item)=>item[0].toUpperCase()+
   item.slice(1)).join(" ")}</h3>
             <h5 className="text-danger">{job.toUpperCase()}</h5>
-            <p className="col-10 m-auto">{text}</p>
+            <p className="col-11 m-auto ">{text}</p>
           </div>
   )
 }

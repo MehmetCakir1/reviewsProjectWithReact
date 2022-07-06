@@ -47,7 +47,7 @@ const Reviews = () => {
      }
 
   return (
-    <main className="main col-md-6 m-auto mt-4 p-2">
+    <main className="main m-auto mt-4 p-2">
         <ReviewCard data={data}/>
         <div className="text-center">
         <div className="arrows">
