@@ -5,7 +5,7 @@ import Reviews from './components/Reviews';
 
 const App = () => {
   return (
-    <div className='row'>
+    <div className='row container m-auto'>
       <Header/>
       <Reviews/>
     </div>
